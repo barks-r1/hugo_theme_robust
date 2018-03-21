@@ -24,6 +24,7 @@ This is the grid based theme for Hugo.
 * OGP
 * Disqus
 * Syntax Highlight
+* Adobe [TypeKit](https://typekit.com/) Webfonts support
 
 ## Installation
 
@@ -49,6 +50,7 @@ disqusShortname = "XYW"
   dateformat = "Jan 2, 2006" # Optional
   # Fonts settings.
   googlefonts = "https://fonts.googleapis.com/css?family=Lobster|Lato:400,700" # Optional, Include google fonts.
+  typekit = "https://use.typekit.net/****.css" Optional, Include Typekit fonts.
   fontfamily = "Lato,YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif" # Optional, Override body font family.
   logofontfamily = "Lobster, cursive" # Optional, Override logo font.
 

@@ -2,6 +2,9 @@
 <html>
   <head>
     {{ partial "meta.html" . }}
+    {{ with .Site.Params.typekit }}
+    <link href="{{ . }}" rel="stylesheet">
+    {{ end }}
     {{ with .Site.Params.googlefonts }}
     <link href="{{ . }}" rel="stylesheet">
     {{ else }}
